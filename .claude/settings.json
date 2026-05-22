@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(go version *)",
+      "Bash(go mod *)",
+      "Bash(go get *)",
+      "Bash(go build *)",
+      "Bash(go clean *)",
+      "Bash(go env *)",
+      "Bash(asdf list *)",
+      "Bash(asdf current *)",
+      "Bash(ls /opt/homebrew/opt/go/)",
+      "Read(//opt/homebrew/Cellar/go/1.24.3/**)",
+      "Bash(GOPATH= go build ./...)",
+      "Bash(GOPATH= go clean -cache)",
+      "Bash(GOPATH= go env GOCACHE)",
+      "Bash(asdf where *)",
+      "Bash(asdf local *)",
+      "Bash(GOROOT= go build .)"
+    ]
+  }
+}
